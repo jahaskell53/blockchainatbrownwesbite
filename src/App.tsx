@@ -5,7 +5,7 @@ function App() {
     <div className="App w-full h-full bg-yellow-50">
       <div id="nav-bar" className="pt-2">
         <a href="/" className="hover:cursor-pointer" ><img src="bitcoin.png" className="hover:cursor-pointer" /></a>
-        <div className="flex flex-row justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl absolute top-8 left-0 right-0 mx-auto ">
+        <div className="flex flex-row justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl absolute top-8 left-0 right-0 w-auto  ">
           <a href="#about" className="hover:text-yellow-600 transition-all">
             About
           </a>
@@ -22,7 +22,7 @@ function App() {
         <img src="ethereum.png" className="h-18" />
         <img src="stellar.png" className="h-18" />
       </div>
-      <h1 className="font-title text-6xl text-center">
+      <h1 className="font-title md:text-6xl text-4xl text-center">
         <span className="bg-gradient-to-r bg-clip-text from-fuchsia-600 to-cyan-600 text-transparent">
           Blockchain
         </span>
@@ -156,9 +156,9 @@ function App() {
           <img src="email.png" className="h-14"></img>
           <a
             href="mailto:blockchain@brown.edu"
-            className="text-3xl font-bold text-yellow-900 underline hover:no-underline transition-all"
+            className="md:text-3xl text-xl font-bold text-yellow-900 underline hover:no-underline transition-all block"
           >
-            blockchain@brown.edu{" "}
+            blockchain@brown.edu
           </a>
         </div>
       </div>
@@ -174,7 +174,7 @@ function App() {
           <img src="Discord.png" className="h-16"></img>
           <a
             href="https://discord.gg/HX3XR8TA"
-            className="text-3xl font-bold text-yellow-900 underline hover:no-underline transition-all"
+            className="text-xl md:text-3xl font-bold text-yellow-900 underline hover:no-underline transition-all inline-block"
           >
             discord.gg/HX3XR8TA
           </a>
