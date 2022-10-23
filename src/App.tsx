@@ -5,7 +5,7 @@ function App() {
     <div className="App w-full h-full bg-yellow-50">
       <div id="nav-bar" className="pt-2 pl-3">
         <a href="/" className="hover:cursor-pointer" ><img src="bitcoin.png" className="hover:cursor-pointer" /></a>
-        <div className="flex flex-row justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl absolute top-8 left-0 right-0 w-auto -mt-1">
+        <div className="flex flex-row justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl absolute top-8 left-12 md:left-0 right-0 w-auto -mt-1">
           <a href="#about" className="hover:text-yellow-600 transition-all">
             About
           </a>
@@ -18,9 +18,9 @@ function App() {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center mt-20">
-        <img src="bitcoin-blue.png" className="h-18" />
-        <img src="ethereum.png" className="h-18" />
-        <img src="stellar.png" className="h-18" />
+        <img src="bitcoin-blue.png" className="md:h-18 h-14" />
+        <img src="ethereum.png" className="md:h-18 h-14" />
+        <img src="stellar.png" className="md:h-18 h-14" />
       </div>
       <h1 id="" className="font-title md:text-6xl text-4xl text-center italic">
         <span className="bg-gradient-to-r bg-clip-text from-fuchsia-600 to-cyan-600 text-transparent">
@@ -56,7 +56,7 @@ function App() {
       <div id="things" className="mt-10 flex flex-col md:flex-row gap-10 md:mx-14 w-min mx-auto md:w-auto">
         <div
           id="community"
-          className="bg-opacity-5 bg-black rounded-2xl w-96 flex flex-col justify-center text-center py-10 px-4"
+          className="bg-opacity-5 bg-black rounded-2xl flex flex-col justify-center text-center py-10 px-4 w-screen md:w-96"
         >
           <img src="hug.png" className="w-32 mx-auto"></img>
           <h1 className="font-bold text-2xl">Community</h1>
@@ -69,7 +69,7 @@ function App() {
 
         <div
           id="community"
-          className="bg-opacity-5 bg-black rounded-2xl w-96 flex flex-col justify-center text-center py-10 px-4"
+          className="bg-opacity-5 bg-black rounded-2xl w-screen md:w-96 flex flex-col justify-center text-center py-10 px-4"
         >
           <img src="bulb.png" className="w-32 mx-auto"></img>
           <h1 className="font-bold text-2xl">Build</h1>
@@ -82,7 +82,7 @@ function App() {
 
         <div
           id="community"
-          className="bg-opacity-5 bg-black rounded-2xl w-96 flex flex-col justify-center text-center py-10 px-4"
+          className="bg-opacity-5 bg-black rounded-2xl w-screen flex flex-col justify-center text-center py-10 px-4 md:w-96"
         >
           <img src="phone.png" className="w-32 mx-auto"></img>
           <h1 className="font-bold text-2xl">Network</h1>
@@ -100,7 +100,7 @@ function App() {
       <div id="container" className="flex flex-col gap-8">
         <div
           id="ben"
-          className="flex flex-col md:flex-row gap-8 p-8 mx-14 bg-opacity-5 bg-black rounded-2xl"
+          className="flex flex-col md:flex-row gap-8 p-8 md:mx-14 bg-opacity-5 bg-black rounded-2xl"
         >
           <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
             <h3 className="font-light text-lg">President</h3>
@@ -121,7 +121,7 @@ function App() {
         </div>
         <div
           id="jakobi"
-          className="flex flex-col md:flex-row gap-8 p-8 mx-14 bg-opacity-5 bg-black rounded-2xl"
+          className="flex flex-col md:flex-row gap-8 p-8 md:mx-14 bg-opacity-5 bg-black rounded-2xl"
         >
           <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
             <h3 className="font-light text-lg">Vice President</h3>
@@ -156,7 +156,7 @@ function App() {
         >
           <img src="email.png" className="h-14"></img>
           <div
-            className="md:text-3xl text-xl font-bold text-yellow-900 underline hover:no-underline transition-all block"
+            className="md:text-3xl text-xl font-bold text-yellow-900 underline hover:no-underline transition-all block md:w-[440px] w-[300px]"
           >
             blockchain@brown.edu
           </div>
@@ -169,7 +169,7 @@ function App() {
       <div className="flex w-screen items-center justify-center">
         <a
           id="discord-div"
-          className="flex flex-row items-center gap-4 my-4 mx-auto w-min"
+          className="flex flex-row items-center gap-4 my-4 mx-auto md:w-[440px] w-[300px]"
           href="https://discord.gg/HX3XR8TA"
         >
           <img src="Discord.png" className="h-16"></img>
