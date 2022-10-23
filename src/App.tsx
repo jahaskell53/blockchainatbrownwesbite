@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App w-full h-full bg-yellow-50">
       <div id="nav-bar" className="pt-2">
-        <img src="bitcoin.png" className="" />
+        <a href="/" className="hover:cursor-pointer" ><img src="bitcoin.png" className="hover:cursor-pointer" /></a>
         <div className="flex flex-row justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl absolute top-8 left-0 right-0 mx-auto ">
           <a href="#about" className="hover:text-yellow-600 transition-all">
             About
@@ -30,14 +30,20 @@ function App() {
       </h1>
       <h3 className="text-xl text-neutral-600 text-center mb-4 font-normal mt-3">
         Founded in 2017, we are Brown University’s student group for everything
-        blockchain, cryptocurrencies, and web3.{" "}
+        blockchain, cryptocurrencies, and web3.
       </h3>
 
       <div className="flex flex-row justify-center items-center mb-72 gap-4 z-50">
-        <img src="Twitter.png" className="w-16 z-50" />
-        <img src="Instagram.png" className="w-16 z-50" />
-        <img src="Discord.png" className="w-16 z-50" />
-        <img src="Spotify.png" className="w-16 z-50" />
+        <a href="https://twitter.com/br0wnblockchain?lang=en" className="z-50 relative hover:-top-1 transition-all"><img src="Twitter.png" className="w-16 z-50" /></a>
+        <a href="https://instagram.com/brownucrypto?igshid=YmMyMTA2M2Y=https://instagram.com/brownucrypto?igshid=YmMyMTA2M2Y=" className="z-50 relative hover:-top-1 transition-all"><img src="Instagram.png" className="w-16 z-50" /></a>
+        <a href="https://discord.gg/HX3XR8TA" className="z-50 relative hover:-top-1 transition-all"><img src="Discord.png" className="w-16 z-50" /></a>
+        <a href="https://open.spotify.com/show/5GSOuaL3bdjl9c8rmw0B3b?si=FQi_8BitR12XU_j4tSAAIg" className="z-50 relative hover:-top-1 transition-all"><img src="Spotify.png" className="w-16 z-50" /></a>
+      </div>
+      <h1 id="podcast" className="font-bold text-6xl text-center mt-20 mb-8">
+       Podcast
+      </h1>
+    <div className="flex justify-center items-center mt-12 mb-24">
+      <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/episode/5JCTOL00yf7eufDXs3yICM?utm_source=generator" className="w-2/3 mx-24" height="232" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
 
       <img src="card.png" className="h-18 absolute md:bottom-0 -bottom-14 left-6 z-[0] hidden md:block" />
@@ -88,7 +94,7 @@ function App() {
         </div>
       </div>
 
-      <h1 id="team" className="font-bold text-4xl text-center mt-20 mb-8">
+      <h1 id="team" className="font-bold text-6xl text-center mt-20 mb-8">
         Our Team
       </h1>
       <div id="container" className="flex flex-col gap-8">
