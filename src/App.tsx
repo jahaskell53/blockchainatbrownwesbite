@@ -3,9 +3,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App w-full h-full bg-yellow-50">
-      <div id="nav-bar" className="pt-2">
+      <div id="nav-bar" className="pt-2 pl-3">
         <a href="/" className="hover:cursor-pointer" ><img src="bitcoin.png" className="hover:cursor-pointer" /></a>
-        <div className="flex flex-row justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl absolute top-8 left-0 right-0 w-auto  ">
+        <div className="flex flex-row justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl absolute top-8 left-0 right-0 w-auto -mt-1">
           <a href="#about" className="hover:text-yellow-600 transition-all">
             About
           </a>
@@ -149,36 +149,37 @@ function App() {
         Interested in partnering with us? Have any questions? Email us at:
       </div>
       <div className="flex w-screen items-center justify-center">
-        <div
+        <a
+        href="mailto:blockchain@brown.edu"
           id="email-div"
-          className="flex flex-row items-center gap-4 my-4 mx-auto w-min"
+          className="flex flex-row items-center gap-4 my-8 mx-auto w-min"
         >
           <img src="email.png" className="h-14"></img>
-          <a
-            href="mailto:blockchain@brown.edu"
+          <div
             className="md:text-3xl text-xl font-bold text-yellow-900 underline hover:no-underline transition-all block"
           >
             blockchain@brown.edu
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       <div className="font-light text-2xl text-center text-neutral-600 max-w-2xl mx-auto">
         And don’t forget to join our discord! This is where events are planned
         and jobs are posted:
       </div>
       <div className="flex w-screen items-center justify-center">
-        <div
-          id="email-div"
+        <a
+          id="discord-div"
           className="flex flex-row items-center gap-4 my-4 mx-auto w-min"
+          href="https://discord.gg/HX3XR8TA"
         >
           <img src="Discord.png" className="h-16"></img>
-          <a
-            href="https://discord.gg/HX3XR8TA"
+          <div
+            
             className="text-xl md:text-3xl font-bold text-yellow-900 underline hover:no-underline transition-all inline-block"
           >
             discord.gg/HX3XR8TA
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       <div className="w-screen flex flex-col items-end -mt-4">
         <img src="mailbox.png" className="w-96"></img>
