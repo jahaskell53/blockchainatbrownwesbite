@@ -40,7 +40,7 @@ function App() {
         <img src="Spotify.png" className="w-16 z-50" />
       </div>
 
-      <img src="card.png" className="h-18 absolute md:bottom-0 -bottom-14 left-6 z-[0]" />
+      <img src="card.png" className="h-18 absolute md:bottom-0 -bottom-14 left-6 z-[0] hidden md:block" />
       <img src="coins.png" className="h-18 absolute bottom-6 right-6 hidden md:block" />
 
       <h1 className="font-bold text-6xl text-center">Goals</h1>
@@ -120,7 +120,7 @@ function App() {
           <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
             <h3 className="font-light text-lg">Vice President</h3>
             <h2 className="font-bold text-2xl mb-2">Jakobi Haskell</h2>
-            <img src="jakobi.jpeg" className="w-32"></img>
+            <img src="jakobi.jpeg" className="w-32 mx-auto md:mx-0"></img>
           </div>
           <div className="-ml-1 mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center text-lg">
