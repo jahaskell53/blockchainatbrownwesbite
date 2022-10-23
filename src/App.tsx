@@ -18,9 +18,9 @@ function App() {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center mt-20">
-        <img src="bitcoin-blue.png" className="md:h-18 h-14" />
-        <img src="ethereum.png" className="md:h-18 h-14" />
-        <img src="stellar.png" className="md:h-18 h-14" />
+        <img src="bitcoin-blue.png" className="md:h-auto h-14" />
+        <img src="ethereum.png" className="md:h-auto h-14" />
+        <img src="stellar.png" className="md:h-auto h-14" />
       </div>
       <h1 id="" className="font-title md:text-6xl text-4xl text-center italic">
         <span className="bg-gradient-to-r bg-clip-text from-fuchsia-600 to-cyan-600 text-transparent">
