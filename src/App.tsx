@@ -22,13 +22,13 @@ function App() {
         <img src="ethereum.png" className="h-18" />
         <img src="stellar.png" className="h-18" />
       </div>
-      <h1 className="font-title md:text-6xl text-4xl text-center">
+      <h1 id="" className="font-title md:text-6xl text-4xl text-center italic">
         <span className="bg-gradient-to-r bg-clip-text from-fuchsia-600 to-cyan-600 text-transparent">
           Blockchain
         </span>
         @Brown
       </h1>
-      <h3 className="text-xl text-neutral-600 text-center mb-4 font-normal mt-3">
+      <h3 className="md:text-2xl text-xl text-neutral-600 text-center mb-4 font-light mt-3 max-w-3xl mx-auto">
         Founded in 2017, we are Brown University’s student group for everything
         blockchain, cryptocurrencies, and web3.
       </h3>
@@ -49,10 +49,10 @@ function App() {
       <img src="card.png" className="h-18 absolute md:bottom-0 -bottom-14 left-6 z-[0] hidden md:block" />
       <img src="coins.png" className="h-18 absolute bottom-6 right-6 hidden md:block" />
 
-      <h1 className="font-bold text-6xl text-center">Goals</h1>
-      <h1 className="font-normal text-xl text-center text-neutral-600">
-        Our primary areas of focus and why you should join us.
-      </h1>
+      <h1 className="font-bold text-6xl text-center mb-3">Goals</h1>
+      {/* <h1 className="font-light text-2xl text-center text-neutral-600">
+        Our areas of focus.
+      </h1> */}
       <div id="things" className="mt-10 flex flex-col md:flex-row gap-10 md:mx-14 w-min mx-auto md:w-auto">
         <div
           id="community"

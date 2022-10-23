@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-behind {
-  z-index: -10;
-}
-
 @layer base {
   html {
     font-family: 'Hind', system-ui, sans-serif;
+  }
+
+  #title {
+    font-family: "EB-Garamond", serif;
   }
 
   header {
