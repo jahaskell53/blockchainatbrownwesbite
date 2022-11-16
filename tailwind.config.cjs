@@ -9,6 +9,10 @@ module.exports = {
       fontFamily: {
         'title': ['"EB Garamond"', 'serif'],
       },
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+      }
   },
 },
   plugins: [],

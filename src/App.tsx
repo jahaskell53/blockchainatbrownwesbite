@@ -17,7 +17,7 @@ function App() {
           </a>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center mt-20">
+      <div className="flex flex-row justify-center items-center mt-48">
         <img src="bitcoin-blue.png" className="md:h-auto h-14" />
         <img src="ethereum.png" className="md:h-auto h-14" />
         <img src="stellar.png" className="md:h-auto h-14" />
@@ -39,11 +39,11 @@ function App() {
         <a href="https://discord.gg/HX3XR8TA" className="z-50 relative hover:-top-1 transition-all"><img src="Discord.png" className="w-16 z-50" /></a>
         <a href="https://open.spotify.com/show/5GSOuaL3bdjl9c8rmw0B3b?si=FQi_8BitR12XU_j4tSAAIg" className="z-50 relative hover:-top-1 transition-all"><img src="Spotify.png" className="w-16 z-50" /></a>
       </div>
-      <h1 id="podcast" className="font-bold text-6xl text-center mt-20 mb-8">
+      <h1 id="podcast" className="font-bold text-6xl text-center mt-96 mb-10">
        Podcast
       </h1>
     <div className="flex justify-center items-center mt-12 mb-24">
-      <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/episode/5JCTOL00yf7eufDXs3yICM?utm_source=generator" className="w-2/3 mx-24" height="232" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/episode/5JCTOL00yf7eufDXs3yICM?utm_source=generator" className="w-2/3 max-w-2xl mx-24" height="232" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
 
       <img src="card.png" className="h-18 absolute md:bottom-0 -bottom-14 left-6 z-[0] hidden md:block" />
@@ -53,10 +53,10 @@ function App() {
       {/* <h1 className="font-light text-2xl text-center text-neutral-600">
         Our areas of focus.
       </h1> */}
-      <div id="things" className="mt-10 flex flex-col md:flex-row gap-10 md:mx-14 w-min mx-auto md:w-auto">
+      <div id="things" className="mt-10 flex flex-col xl:flex-row gap-10 mx-auto">
         <div
           id="community"
-          className="bg-opacity-5 bg-black rounded-2xl flex flex-col justify-center text-center py-10 px-4 w-screen md:w-96"
+          className="bg-opacity-5 bg-black rounded-2xl flex flex-col justify-center text-center py-10 px-4 sm:w-96 mx-4 sm:mx-auto"
         >
           <img src="hug.png" className="w-32 mx-auto"></img>
           <h1 className="font-bold text-2xl">Community</h1>
@@ -68,8 +68,8 @@ function App() {
         </div>
 
         <div
-          id="community"
-          className="bg-opacity-5 bg-black rounded-2xl w-screen md:w-96 flex flex-col justify-center text-center py-10 px-4"
+          id="build"
+          className="bg-opacity-5 bg-black rounded-2xl flex flex-col justify-center text-center py-10 px-4 sm:w-96 mx-4 sm:mx-auto"
         >
           <img src="bulb.png" className="w-32 mx-auto"></img>
           <h1 className="font-bold text-2xl">Build</h1>
@@ -81,8 +81,8 @@ function App() {
         </div>
 
         <div
-          id="community"
-          className="bg-opacity-5 bg-black rounded-2xl w-screen flex flex-col justify-center text-center py-10 px-4 md:w-96"
+          id="network"
+          className="bg-opacity-5 bg-black rounded-2xl flex flex-col justify-center text-center py-10 px-4 sm:w-96 mx-4 sm:mx-auto"
         >
           <img src="phone.png" className="w-32 mx-auto"></img>
           <h1 className="font-bold text-2xl">Network</h1>
@@ -100,7 +100,7 @@ function App() {
       <div id="container" className="flex flex-col gap-8">
         <div
           id="ben"
-          className="flex flex-col md:flex-row gap-8 p-8 md:mx-14 bg-opacity-5 bg-black rounded-2xl"
+          className="flex flex-col md:flex-row gap-8 p-8 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
         >
           <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
             <h3 className="font-light text-lg">President</h3>
