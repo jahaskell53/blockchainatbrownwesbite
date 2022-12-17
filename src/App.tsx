@@ -170,7 +170,7 @@ function App() {
         <a
           id="discord-div"
           className="flex flex-row items-center gap-4 my-4 mx-auto md:w-[440px] w-[300px]"
-          href="https://discord.gg/HX3XR8TA"
+          href="https://discord.gg/C7xhNxSv"
         >
           <img src="Discord.png" className="h-16"></img>
           <div
