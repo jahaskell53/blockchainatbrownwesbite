@@ -43,7 +43,7 @@ function App() {
        Podcast
       </h1>
     <div className="flex justify-center items-center mt-12 mb-24">
-      <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/episode/5JCTOL00yf7eufDXs3yICM?utm_source=generator" className="w-2/3 max-w-2xl mx-24" height="232" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <iframe className="rounded-xl" src="https://open.spotify.com/embed/show/5GSOuaL3bdjl9c8rmw0B3b/video?utm_source=generator" width="624" height="351" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
 
       <img src="card.png" className="h-18 absolute md:bottom-0 -bottom-14 left-6 z-[0] hidden md:block" />
