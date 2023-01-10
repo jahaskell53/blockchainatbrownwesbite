@@ -38,7 +38,7 @@ function App() {
 
       <div className="flex flex-row justify-center items-center mb-72 gap-4 z-50">
         <a
-          href="https://twitter.com/br0wnblockchain?lang=en"
+          href="https://twitter.com/BrownUCrypto"
           className="z-50 relative hover:-top-1 transition-all"
           target="_blank"
         >
