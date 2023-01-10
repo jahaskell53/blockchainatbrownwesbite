@@ -14,6 +14,7 @@ function App() {
           <a href="#team" className="hover:text-yellow-600 transition-all">
             Team
           </a>
+          <a href="#resources-sec" className="hover:text-yellow-600 transition-all">Resources</a>
           <a href="#contact" className="hover:text-yellow-600 transition-all">
             Contact Us
           </a>
