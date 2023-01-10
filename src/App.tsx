@@ -185,7 +185,7 @@ function App() {
               Strong Discord community and a website with a series of
               interactive tutorials in web3, which range from creating a website
               where you can mint your own NFTs to establishing your own domain
-              service in Polygon. Optimal for those want to learn about crypto
+              service in Polygon. Optimal for those who want to learn about crypto
               by doing.
             </p>
           </li>
@@ -217,7 +217,7 @@ function App() {
               </a>
             </h3>
             <p className="mt-2 text-lg">
-              A 1 hour and 30 minute tutorial for learning the basics of
+              A 1 hour and 30-minute tutorial for learning the basics of
               smart-contract development with Solidity, the programming language
               for Ethereum.
             </p>
@@ -234,7 +234,7 @@ function App() {
               </a>
             </h3>
             <p className="mt-2 text-lg">
-              Youtube playlist of series of experts explaining facets of
+              Youtube playlist of a series of experts explaining facets of
               zero-knowledge proofs.
             </p>
           </li>
@@ -301,8 +301,8 @@ function App() {
             <p className="mt-2 text-lg">
               Buterin is the co-founder of Ethereum and one of the main
               philosophical leaders of the crypto movement. In his blog, he
-              writes essays about variety of topics that usually involve new
-              ideas for blockchain-applications. He writes from both technical
+              writes essays about a variety of topics that usually involve new
+              ideas for blockchain applications. He writes from both technical
               and non-technical perspectives.
             </p>
           </li>
@@ -314,7 +314,7 @@ function App() {
         <div className="text-left text-xl mb-6">
           There are some great courses at Brown that will help you understand
           blockchain and its underlying components. Here are some of those
-          courses along with their descriptions form CAB.{" "}
+          courses along with their descriptions from CAB.{" "}
         </div>
         <ul>
           <li className="my-4">
@@ -328,7 +328,7 @@ function App() {
               {" "}
               Introduction to modern blockchain-based systems. Topics covered
               include consensus and distributed computing, examples
-              cryptocurrencies, programming smart contracts, privacy and
+              of cryptocurrencies, programming smart contracts, privacy and
               secrecy, transfer networks, atomic swaps and transactions,
               non-currency applications of blockchains, and legal and social
               implications. Students will do a programming project and a term
@@ -420,7 +420,7 @@ function App() {
               Online space strategy game that is on-chain and takes advantage of
               ZK-SNARKs to allow for incomplete information. Inspired by the
               series of Three-Body Problem science fiction novels from Cixin
-              Liu. Provide link to IPFS
+              Liu.
             </p>
           </li>
           <li className="my-4">
