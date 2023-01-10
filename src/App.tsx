@@ -239,6 +239,25 @@ function App() {
               zero-knowledge proofs.
             </p>
           </li>
+
+          <li className="my-4">
+            <h3 className="text-2xl font-medium">
+             
+               Blockchain 101: Part <a
+                className="hover:no-underline text-2xl font-medium underline"
+                href="https://www.youtube.com/watch?v=_160oMzblY8"
+                target="_blank"
+              >One</a> and  <a
+              className="hover:no-underline text-2xl font-medium underline"
+              href="https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq"
+              target="_blank"
+            >Two</a>
+              
+            </h3>
+            <p className="mt-2 text-lg">
+              Youtube two-part video series that introduces how a blockchain works in a visual and intuitive way. 
+            </p>
+          </li>
         </ul>
 
         <h2 className="font-medium text-4xl mt-10 mb-6 text-left text-yellow-800">
@@ -492,33 +511,13 @@ function App() {
         Our Team
       </h1>
       <div id="container" className="flex flex-col gap-8">
-        <div
-          id="ben"
-          className="flex flex-col md:flex-row gap-8 p-8 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
-        >
-          <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
-            <h3 className="font-light text-lg">President</h3>
-            <h2 className="font-bold text-2xl mb-2">Ben Frigon</h2>
-            <img src="ben.jpeg" className="w-32 mx-auto"></img>
-          </div>
-          <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
-          <div className="flex-shrink self-center text-lg ml-8">
-            Ben Frigon is a member of the class of 2022.5 from Nashville,
-            Tennessee, studying Public Policy and Entrepreneurship. Ben’s main
-            passion is technology and entrepreneurship; specifically, his focus
-            is on making the world a better place using decentralized
-            technologies. In the Spring 2022 semester, Ben co-designed and
-            co-taught the world’s first ever credit-bearing university course on
-            non-fungible tokens, “GISP0003 NFTs, Blockchain, and Art.” He also
-            hosts the Blockchain@Brown Podcast.
-          </div>
-        </div>
+  
         <div
           id="jakobi"
           className="flex flex-col md:flex-row gap-8 p-8 md:mx-14 bg-opacity-5 bg-black rounded-2xl"
         >
           <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
-            <h3 className="font-light text-lg">Vice President</h3>
+            <h3 className="font-light text-lg">Current President</h3>
             <h2 className="font-bold text-2xl mb-2">Jakobi Haskell</h2>
             <img src="jakobi.jpeg" className="w-32 mx-auto md:mx-0"></img>
           </div>
@@ -532,6 +531,27 @@ function App() {
             writer for the Brown Daily Herald, a member of Brown's Applied
             Computing club, and participant in various hackathons including
             HackHarvard and Yale Hack.
+          </div>
+        </div>
+        <div
+          id="ben"
+          className="flex flex-col md:flex-row gap-8 p-8 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
+        >
+          <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
+            <h3 className="font-light text-lg">Previous President</h3>
+            <h2 className="font-bold text-2xl mb-2">Ben Frigon</h2>
+            <img src="ben.jpeg" className="w-32 mx-auto"></img>
+          </div>
+          <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
+          <div className="flex-shrink self-center text-lg ml-8">
+            Ben Frigon is a member of the class of 2022.5 from Nashville,
+            Tennessee, studying Public Policy and Entrepreneurship. Ben’s main
+            passion is technology and entrepreneurship; specifically, his focus
+            is on making the world a better place using decentralized
+            technologies. In the Spring 2022 semester, Ben co-designed and
+            co-taught the world’s first ever credit-bearing university course on
+            non-fungible tokens, “GISP0003 NFTs, Blockchain, and Art.” He also
+            hosts the Blockchain@Brown Podcast.
           </div>
         </div>
       </div>
