@@ -21,7 +21,7 @@ function App() {
           <img src="bitcoin.png" width="60" onClick={() => {
             window.location.href = "#body"
           }} className="hover:cursor-pointer"></img>
-        <div id="nav" className="flex-col md:flex-row mt-2 md:w-auto w-screen text-center relative transition-all justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl md:absolute top-8 md:left-12 right-0 md:-mt-1 hidden md:flex z-50">
+        <div id="nav" className="flex-col md:flex-row mt-2 md:w-auto w-screen text-center relative transition-all justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl md:absolute top-8 md:left-12 right-0 md:-mt-1 hidden md:flex z-50 bg-yellow-50 md:bg-transparent mx-0">
           <a href="#about" className="hover:text-yellow-600 transition-all">
             About
           </a>
