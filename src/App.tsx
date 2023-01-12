@@ -5,7 +5,7 @@ function App() {
   const [hidden, setHidden] = useState(true);
   return (
     <div id="body" className="App w-full h-full bg-yellow-50">
-      <div id="nav-bar" className="pt-2 pl-3 sticky top-0 bg-yellow-50 z-20 ">
+      <div id="nav-bar" className="pt-2 pl-3 sticky top-0 bg-yellow-50 z-50">
         <div id="ham-menu" className="space-y-2 md:hidden absolute right-4 top-6 hover:cursor-pointer group" onClick={() => {
           console.log(hidden)
           const style = hidden ? "flex": "";
@@ -21,7 +21,7 @@ function App() {
           <img src="bitcoin.png" width="60" onClick={() => {
             window.location.href = "#body"
           }} className="hover:cursor-pointer"></img>
-        <div id="nav" className="flex-col md:flex-row mt-2 md:w-auto w-screen text-center relative transition-all justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl md:absolute top-8 md:left-12 right-0 md:-mt-1 hidden md:flex">
+        <div id="nav" className="flex-col md:flex-row mt-2 md:w-auto w-screen text-center relative transition-all justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl md:absolute top-8 md:left-12 right-0 md:-mt-1 hidden md:flex z-50">
           <a href="#about" className="hover:text-yellow-600 transition-all">
             About
           </a>
@@ -55,47 +55,47 @@ function App() {
         blockchain, cryptocurrencies, and web3.
       </h3>
           {/* Margin 72 to EOS */}
-      <div className="flex flex-row justify-center items-center gap-4 z-50">
+      <div className="flex flex-row justify-center items-center gap-4 z-20">
         <a
           href="https://twitter.com/BrownUCrypto"
-          className="z-50 relative hover:-top-1 transition-all"
+          className="z-20 relative hover:-top-1 transition-all"
           target="_blank"
         >
-          <img src="Twitter.png" className="w-16 z-50" />
+          <img src="Twitter.png" className="w-16 z-20" />
         </a>
         <a
           href="https://instagram.com/brownucrypto?igshid=YmMyMTA2M2Y=https://instagram.com/brownucrypto?igshid=YmMyMTA2M2Y="
           target="_blank"
-          className="z-50 relative hover:-top-1 transition-all"
+          className="z-20 relative hover:-top-1 transition-all"
         >
-          <img src="Instagram.png" className="w-16 z-50" />
+          <img src="Instagram.png" className="w-16 z-20" />
         </a>
         <a
           href="https://discord.gg/HX3XR8TA"
           target="_blank"
-          className="z-50 relative hover:-top-1 transition-all"
+          className="z-20 relative hover:-top-1 transition-all"
         >
-          <img src="Discord.png" className="w-16 z-50" />
+          <img src="Discord.png" className="w-16 z-20" />
         </a>
         <a
           href="https://open.spotify.com/show/5GSOuaL3bdjl9c8rmw0B3b?si=FQi_8BitR12XU_j4tSAAIg"
           target="_blank"
-          className="z-50 relative hover:-top-1 transition-all"
+          className="z-20 relative hover:-top-1 transition-all"
         >
-          <img src="Spotify.png" className="w-16 z-50" />
+          <img src="Spotify.png" className="w-16 z-20" />
         </a>
       </div>
-      <div className="border-box p-10 w-3/4 bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
+      <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
       
       <h2 id="podcast" className="font-bold text-3xl text-center mb-10 ">
         Free Domain Giveaway
       </h2>
-      <a href="https://unstoppabledomains.com/free-mint/blockchain-at-brown" className="group hover:cursor-pointer  ">
+      <a href="https://unstoppabledomains.com/free-mint/blockchain-at-brown" className="group hover:cursor-pointer">
       <img src="https://mms.businesswire.com/media/20191011005077/en/740189/23/unstoppabledomains.jpg" className="mx-auto relative group-hover:scale-105 transition"></img>
       </a>
       </div>
       <h1></h1>
-      <h1 id="podcast" className="font-bold text-6xl text-center mt-96 mb-10">
+      <h1 id="podcast" className="font-bold text-6xl text-center mt-24 mb-10">
         Podcast
       </h1>
       <div className="flex justify-center items-center mt-12 mb-24">
