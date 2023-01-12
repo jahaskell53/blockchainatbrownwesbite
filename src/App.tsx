@@ -4,8 +4,8 @@ import "./App.css";
 function App() {
   const [hidden, setHidden] = useState(true);
   return (
-    <div className="App w-full h-full bg-yellow-50">
-      <div id="nav-bar" className="pt-2 pl-3 ">
+    <div id="body" className="App w-full h-full bg-yellow-50">
+      <div id="nav-bar" className="pt-2 pl-3 sticky top-0 bg-yellow-50 z-20 ">
         <div id="ham-menu" className="space-y-2 md:hidden absolute right-4 top-6 hover:cursor-pointer group" onClick={() => {
           console.log(hidden)
           const style = hidden ? "flex": "";
@@ -19,7 +19,7 @@ function App() {
           <div className={`w-8 h-1 bg-yellow-600 rounded-lg relative  transition ${!hidden ? "-rotate-45 -top-3": ""}`}></div>
         </div>
           <img src="bitcoin.png" width="60" onClick={() => {
-            window.location.href = "/"
+            window.location.href = "#body"
           }} className="hover:cursor-pointer"></img>
         <div id="nav" className="flex-col md:flex-row mt-2 md:w-auto w-screen text-center relative transition-all justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl md:absolute top-8 md:left-12 right-0 md:-mt-1 hidden md:flex">
           <a href="#about" className="hover:text-yellow-600 transition-all">
@@ -54,8 +54,8 @@ function App() {
         Founded in 2017, we are Brown University’s student group for everything
         blockchain, cryptocurrencies, and web3.
       </h3>
-
-      <div className="flex flex-row justify-center items-center mb-72 gap-4 z-50">
+          {/* Margin 72 to EOS */}
+      <div className="flex flex-row justify-center items-center gap-4 z-50">
         <a
           href="https://twitter.com/BrownUCrypto"
           className="z-50 relative hover:-top-1 transition-all"
@@ -85,6 +85,16 @@ function App() {
           <img src="Spotify.png" className="w-16 z-50" />
         </a>
       </div>
+      <div className="border-box p-10 w-3/4 bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
+      
+      <h2 id="podcast" className="font-bold text-3xl text-center mb-10 ">
+        Free Domain Giveaway
+      </h2>
+      <a href="https://unstoppabledomains.com/free-mint/blockchain-at-brown" className="group hover:cursor-pointer  ">
+      <img src="https://mms.businesswire.com/media/20191011005077/en/740189/23/unstoppabledomains.jpg" className="mx-auto relative group-hover:scale-105 transition"></img>
+      </a>
+      </div>
+      <h1></h1>
       <h1 id="podcast" className="font-bold text-6xl text-center mt-96 mb-10">
         Podcast
       </h1>
