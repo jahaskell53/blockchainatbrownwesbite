@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "deploy": "vite build && npx thirdweb@latest upload dist",
     "preview": "vite preview"
   },
   "dependencies": {
