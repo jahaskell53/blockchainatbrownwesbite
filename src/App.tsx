@@ -14,9 +14,9 @@ function App() {
           setHidden(!hidden);
           console.log(hidden)
         }}>
-          <div className={`w-8 h-1 bg-yellow-600 rounded-lg ${hidden && "group-hover:rotate-12"} transition  ${!hidden ? "rotate-45 top-3": ""} relative`}></div>
+          <div className={`w-8 h-1 bg-yellow-600 rounded-lg transition  ${!hidden ? "rotate-45 top-3": ""} relative`}></div>
           <div className={`w-8 h-1 bg-yellow-600 rounded-lg transition ${!hidden && "opacity-0"}`}></div>
-          <div className={`w-8 h-1 bg-yellow-600 rounded-lg ${hidden && "group-hover:-rotate-12"} relative  transition ${!hidden ? "-rotate-45 -top-3": ""}`}></div>
+          <div className={`w-8 h-1 bg-yellow-600 rounded-lg relative  transition ${!hidden ? "-rotate-45 -top-3": ""}`}></div>
         </div>
           <img src="bitcoin.png" width="60" onClick={() => {
             window.location.href = "/"
