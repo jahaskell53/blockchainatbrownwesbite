@@ -87,7 +87,7 @@ function App() {
       </div>
       <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
       
-      <h2 id="podcast" className="font-bold text-3xl text-center mb-10 ">
+      <h2 id="podcast" className="font-bold text-3xl text-center mb-10 z-25">
         Free Domain Giveaway
       </h2>
       <a href="https://unstoppabledomains.com/free-mint/blockchain-at-brown" className="group hover:cursor-pointer">
