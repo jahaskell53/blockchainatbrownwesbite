@@ -71,7 +71,7 @@ function App() {
           <img src="Instagram.png" className="w-16 z-20" />
         </a>
         <a
-          href="https://discord.gg/HX3XR8TA"
+          href="https://discord.gg/hPjFSVsx"
           target="_blank"
           className="z-20 relative hover:-top-1 transition-all"
         >
