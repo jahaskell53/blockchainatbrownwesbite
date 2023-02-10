@@ -78,7 +78,7 @@ function App() {
           <img src="Discord.png" className="w-16 z-20" />
         </a>
         <a
-          href="https://open.spotify.com/show/5GSOuaL3bdjl9c8rmw0B3b?si=FQi_8BitR12XU_j4tSAAIg"
+          href="https://open.spotify.com/show/5GSOuaL3bdjl9c8rmw0B3b?si=fd99c6ec9f914678"
           target="_blank"
           className="z-20 relative hover:-top-1 transition-all"
         >
