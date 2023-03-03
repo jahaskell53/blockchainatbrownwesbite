@@ -63,7 +63,7 @@ function App() {
           </a>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center mt-48">
+      <div className="flex flex-row justify-center items-center mt-36">
         <img src="bitcoin-blue.png" className="md:h-auto h-14" />
         <img src="ethereum.png" className="md:h-auto h-14" />
         <img src="stellar.png" className="md:h-auto h-14" />
