@@ -6,22 +6,46 @@ function App() {
   return (
     <div id="body" className="App w-full h-full bg-yellow-50">
       <div id="nav-bar" className="pt-2 pl-3 sticky top-0 bg-yellow-50 z-50">
-        <div id="ham-menu" className="space-y-2 md:hidden absolute right-4 top-6 hover:cursor-pointer group" onClick={() => {
-          console.log(hidden)
-          const style = hidden ? "flex": "";
-          console.log(style)
-          document.getElementById("nav")!.style.display = style;
-          setHidden(!hidden);
-          console.log(hidden)
-        }}>
-          <div className={`w-8 h-1 bg-yellow-600 rounded-lg transition  ${!hidden ? "rotate-45 top-3": ""} relative`}></div>
-          <div className={`w-8 h-1 bg-yellow-600 rounded-lg transition ${!hidden && "opacity-0"}`}></div>
-          <div className={`w-8 h-1 bg-yellow-600 rounded-lg relative  transition ${!hidden ? "-rotate-45 -top-3": ""}`}></div>
+        <div
+          id="ham-menu"
+          className="space-y-2 md:hidden absolute right-4 top-6 hover:cursor-pointer group"
+          onClick={() => {
+            console.log(hidden);
+            const style = hidden ? "flex" : "";
+            console.log(style);
+            document.getElementById("nav")!.style.display = style;
+            setHidden(!hidden);
+            console.log(hidden);
+          }}
+        >
+          <div
+            className={`w-8 h-1 bg-yellow-600 rounded-lg transition  ${
+              !hidden ? "rotate-45 top-3" : ""
+            } relative`}
+          ></div>
+          <div
+            className={`w-8 h-1 bg-yellow-600 rounded-lg transition ${
+              !hidden && "opacity-0"
+            }`}
+          ></div>
+          <div
+            className={`w-8 h-1 bg-yellow-600 rounded-lg relative  transition ${
+              !hidden ? "-rotate-45 -top-3" : ""
+            }`}
+          ></div>
         </div>
-          <img src="bitcoin.png" width="60" onClick={() => {
-            window.location.href = "#body"
-          }} className="hover:cursor-pointer"></img>
-        <div id="nav" className="flex-col md:flex-row mt-2 md:w-auto w-screen text-center relative transition-all justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl md:absolute top-8 md:left-12 right-0 md:-mt-1 hidden md:flex z-50 bg-yellow-50 md:bg-transparent mx-0">
+        <img
+          src="bitcoin.png"
+          width="60"
+          onClick={() => {
+            window.location.href = "#body";
+          }}
+          className="hover:cursor-pointer"
+        ></img>
+        <div
+          id="nav"
+          className="flex-col md:flex-row mt-2 md:w-auto w-screen text-center relative transition-all justify-center gap-10 items-center flex-grow text-yellow-800 font-semibold text-xl md:absolute top-8 md:left-12 right-0 md:-mt-1 hidden md:flex z-50 bg-yellow-50 md:bg-transparent mx-0"
+        >
           <a href="#about" className="hover:text-yellow-600 transition-all">
             About
           </a>
@@ -54,7 +78,7 @@ function App() {
         Founded in 2017, we are Brown University’s student group for everything
         blockchain, cryptocurrencies, and web3.
       </h3>
-          {/* Margin 72 to EOS */}
+      {/* Margin 72 to EOS */}
       <div className="flex flex-row justify-center items-center gap-4 z-20">
         <a
           href="https://twitter.com/BrownUCrypto"
@@ -84,17 +108,28 @@ function App() {
         >
           <img src="Spotify.png" className="w-16 z-20" />
         </a>
+        <a href="https://www.youtube.com/@0xHopper"  target="_blank"
+          className="z-20 relative hover:-top-1 transition-all">
+          <img src="Youtube.png" className="w-16 z-20" />
+        </a>
       </div>
       <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
-      
-      <h2 id="podcast" className="font-bold text-3xl text-center mb-10 z-25">
-        Free Domain Giveaway
-      </h2>
-      <a href="https://unstoppabledomains.com/free-mint/blockchain-at-brown" className="group hover:cursor-pointer">
-      <img src="https://mms.businesswire.com/media/20191011005077/en/740189/23/unstoppabledomains.jpg" className="mx-auto relative group-hover:scale-105 transition"></img>
-      </a>
+        <h2 id="podcast" className="font-bold text-3xl text-center mb-10 z-25">
+          Free Domain Giveaway
+        </h2>
+        <a
+          href="https://unstoppabledomains.com/free-mint/blockchain-at-brown"
+          className="group hover:cursor-pointer"
+        >
+          <img
+            src="https://mms.businesswire.com/media/20191011005077/en/740189/23/unstoppabledomains.jpg"
+            className="mx-auto relative group-hover:scale-105 transition"
+          ></img>
+        </a>
+        <p className="mt-4 text-stone-500 text-2xl text-center">
+          Anyone with a brown.edu email can sign up for a free domain!
+        </p>
       </div>
-      <h1></h1>
       <h1 id="podcast" className="font-bold text-6xl text-center mt-24 mb-10">
         Podcast
       </h1>
@@ -292,6 +327,21 @@ function App() {
               a visual and intuitive way.
             </p>
           </li>
+          <li className="my-4">
+            <h3 className="text-xl font-medium">
+              <a
+                href="https://www.youtube.com/watch?v=bBC-nXj3Ng4"
+                className="hover:no-underline text-xl font-medium underline"
+              >
+                But how does Bitcoin actually work?
+              </a>
+            </h3>
+            <p className="mt-2 font-light">
+              A visual explanation Youtube series explaining the cryptography
+              and structure of the blockchain from 3Blue1Brown's Grant
+              Sanderson.
+            </p>
+          </li>
         </ul>
 
         <h2 className="font-medium text-3xl mt-10 mb-6 text-left text-yellow-800">
@@ -391,6 +441,18 @@ function App() {
           </li>
           <li className="my-4">
             <h3>
+              <a className="text-xl font-medium ">
+              Spring 2022 - NFTs, Blockchain, & Art
+              </a>
+            </h3>
+            <h4 className="text-lg font-semibold my-2">GISP0003</h4>
+            <p className="mt-2 font-light">
+              {" "} 
+              In Spring 2022, the first ever credit-bearing course on NFTs in history was taught at Brown University.  Our former President Ben Frigon was one of the co-designers.
+            </p>
+          </li>
+          <li className="my-4">
+            <h3>
               <a className="text-xl font-medium">Applied Cryptography</a>
             </h3>
             <h4 className="text-lg font-semibold my-2">CSCI 1515</h4>
@@ -475,6 +537,34 @@ function App() {
           out.
         </div>
         <ul>
+        <li className="my-4">
+            <h3>
+              <a
+                className="hover:no-underline text-xl font-medium underline"
+                href="https://arbitrum.io/"
+                target="_blank"
+              >
+                Arbitrum
+              </a>
+            </h3>
+            <p className="mt-2 font-light">
+            Built using optimistic rollup technology, Arbitrum is one of the most well-known Ethereum L2s. It is faster and cheaper than Ethereum's L1 and you can still interact with all your favorite dapps. Bridge to Arbitrum One and play around in their diverse ecosystem.
+            </p>
+          </li>
+          <li className="my-4">
+            <h3>
+              <a
+                className="hover:no-underline text-xl font-medium underline"
+                href="https://arbitrum.io/"
+                target="_blank"
+              >
+                dYdX
+              </a>
+            </h3>
+            <p className="mt-2 font-light">
+            A decentralized exchange with low fees for perpetual futures trading (futures with no delivery date). Its latest version, v3, runs on StarkWare (an L2 on Ethereum), but v4 will run on Cosmos, a modular blockchain.
+            </p>
+          </li>
           <li className="my-4">
             <h3>
               <a
