@@ -663,7 +663,7 @@ function App() {
           </div>
           <div className="-ml-1 mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center">
-            Jakobi Haskell is a class of 2025 computer science student from
+            Jakobi Haskell is a computer science student from
             Washington DC. Jakobi has been involved in various crypto-related
             projects, such as building an NFT-based social platform for digital
             artists. He's passionate about the Ethereum ecosystem as well as
@@ -683,7 +683,7 @@ function App() {
           </div>
           <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center ml-8">
-            Christian Armstrong is a class of 2025 computer science student from
+            Christian Armstrong is a computer science student from
             Durango, Colorado. Christian's love of technology and innovation has
             culminated in a passion for cryptography and the startup world. When
             he's not shooting hoops or studying at the Sci-Li, Christian enjoys
@@ -703,8 +703,8 @@ function App() {
           </div>
           <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center ml-8">
-            Ben Frigon is a member of the class of 2022.5 from Nashville,
-            Tennessee, studying Public Policy and Entrepreneurship. Ben’s main
+            Ben Frigon is a recent Brown graduate from Nashville,
+            Tennessee, who studied Public Policy and Entrepreneurship. Ben’s main
             passion is technology and entrepreneurship; specifically, his focus
             is on making the world a better place using decentralized
             technologies. In the Spring 2022 semester, Ben co-designed and
