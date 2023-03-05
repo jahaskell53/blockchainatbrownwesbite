@@ -533,8 +533,8 @@ function App() {
           Applications That We Like
         </h2>
         <div className="text-lg mb-6">
-          Decentralized applications, or "dapps", that we think you should try
-          out.
+          Get experience on chain. These are decentralized applications, or "dapps", that we think you should try
+          out. 
         </div>
         <ul>
         <li className="my-4">
