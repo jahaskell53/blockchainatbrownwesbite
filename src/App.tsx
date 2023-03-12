@@ -75,8 +75,8 @@ function App() {
         @Brown
       </h1>
       <h3 className="md:text-2xl text-xl text-neutral-600 text-center mb-4 font-light mt-3 max-w-3xl mx-auto">
-        Founded in 2017, Blockchain@Brown is Brown University’s student group for everything
-        blockchain, cryptocurrencies, and web3.
+        Founded in 2017, Blockchain@Brown is Brown University’s student group
+        for everything blockchain, cryptocurrencies, and web3.
       </h3>
       {/* Margin 72 to EOS */}
       <div className="flex flex-row justify-center items-center gap-4 z-20">
@@ -108,10 +108,38 @@ function App() {
         >
           <img src="Spotify.png" className="w-16 z-20" />
         </a>
-        <a href="https://www.youtube.com/@0xHopper"  target="_blank"
-          className="z-20 relative hover:-top-1 transition-all">
+        <a
+          href="https://www.youtube.com/@0xHopper"
+          target="_blank"
+          className="z-20 relative hover:-top-1 transition-all"
+        >
           <img src="Youtube.png" className="w-16 z-20" />
         </a>
+      </div>
+
+      <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
+        <h2
+          id="podcast"
+          className="font-bold text-3xl text-center mb-10 z-25 underline"
+        >
+          <a
+            href="https://us06web.zoom.us/j/88141950477"
+            className="group hover:cursor-pointer"
+          >
+            {" "}
+            Zoom Link
+          </a>
+        </h2>
+        <a
+            href="https://us06web.zoom.us/j/88141950477"
+            className="group hover:cursor-pointer"
+          >
+        <img
+          src="poster.png"
+          className="mx-auto relative group-hover:scale-105 transition"
+        ></img>
+          </a>
+
       </div>
       <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
         <h2 id="podcast" className="font-bold text-3xl text-center mb-10 z-25">
@@ -442,13 +470,15 @@ function App() {
           <li className="my-4">
             <h3>
               <a className="text-xl font-medium ">
-              Spring 2022 - NFTs, Blockchain, & Art
+                Spring 2022 - NFTs, Blockchain, & Art
               </a>
             </h3>
             <h4 className="text-lg font-semibold my-2">GISP0003</h4>
             <p className="mt-2 font-light">
-              {" "} 
-              In Spring 2022, the first ever credit-bearing course on NFTs in history was taught at Brown University.  Our former President Ben Frigon was one of the co-designers.
+              {" "}
+              In Spring 2022, the first ever credit-bearing course on NFTs in
+              history was taught at Brown University. Our former President Ben
+              Frigon was one of the co-designers.
             </p>
           </li>
           <li className="my-4">
@@ -533,11 +563,11 @@ function App() {
           Applications That We Like
         </h2>
         <div className="text-lg mb-6">
-          Get experience on chain. These are decentralized applications, or "dapps", that we think you should try
-          out. 
+          Get experience on chain. These are decentralized applications, or
+          "dapps", that we think you should try out.
         </div>
         <ul>
-        <li className="my-4">
+          <li className="my-4">
             <h3>
               <a
                 className="hover:no-underline text-xl font-medium underline"
@@ -548,7 +578,11 @@ function App() {
               </a>
             </h3>
             <p className="mt-2 font-light">
-            Built using optimistic rollup technology, Arbitrum is one of the most well-known Ethereum L2s. It is faster and cheaper than Ethereum's L1 and you can still interact with all your favorite dapps. Bridge to Arbitrum One and play around in their diverse ecosystem.
+              Built using optimistic rollup technology, Arbitrum is one of the
+              most well-known Ethereum L2s. It is faster and cheaper than
+              Ethereum's L1 and you can still interact with all your favorite
+              dapps. Bridge to Arbitrum One and play around in their diverse
+              ecosystem.
             </p>
           </li>
           <li className="my-4">
@@ -562,7 +596,10 @@ function App() {
               </a>
             </h3>
             <p className="mt-2 font-light">
-            A decentralized exchange with low fees for perpetual futures trading (futures with no delivery date). Its latest version, v3, runs on StarkWare (an L2 on Ethereum), but v4 will run on Cosmos, a modular blockchain.
+              A decentralized exchange with low fees for perpetual futures
+              trading (futures with no delivery date). Its latest version, v3,
+              runs on StarkWare (an L2 on Ethereum), but v4 will run on Cosmos,
+              a modular blockchain.
             </p>
           </li>
           <li className="my-4">
@@ -663,13 +700,13 @@ function App() {
           </div>
           <div className="-ml-1 mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center">
-            Jakobi Haskell is a computer science student from
-            Washington DC. Jakobi has been involved in various crypto-related
-            projects, such as building an NFT-based social platform for digital
-            artists. He's passionate about the Ethereum ecosystem as well as
-            combining technology with business innovations. This semester,
-            Jakobi is a TA for CS1951T, and likes to participate in hackathons
-            and go on bike rides in his free time.
+            Jakobi Haskell is a computer science student from Washington DC.
+            Jakobi has been involved in various crypto-related projects, such as
+            building an NFT-based social platform for digital artists. He's
+            passionate about the Ethereum ecosystem as well as combining
+            technology with business innovations. This semester, Jakobi is a TA
+            for CS1951T, and likes to participate in hackathons and go on bike
+            rides in his free time.
           </div>
         </div>
         <div
@@ -683,8 +720,8 @@ function App() {
           </div>
           <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center ml-8">
-            Christian Armstrong is a computer science student from
-            Durango, Colorado. Christian's love of technology and innovation has
+            Christian Armstrong is a computer science student from Durango,
+            Colorado. Christian's love of technology and innovation has
             culminated in a passion for cryptography and the startup world. When
             he's not shooting hoops or studying at the Sci-Li, Christian enjoys
             tea, podcasts, and HBO shows. This semester Christian is a TA for
@@ -703,14 +740,14 @@ function App() {
           </div>
           <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center ml-8">
-            Ben Frigon is a recent Brown graduate from Nashville,
-            Tennessee, who studied Public Policy and Entrepreneurship. Ben’s main
-            passion is technology and entrepreneurship; specifically, his focus
-            is on making the world a better place using decentralized
-            technologies. In the Spring 2022 semester, Ben co-designed and
-            co-taught the world’s first ever credit-bearing university course on
-            non-fungible tokens, “GISP0003 NFTs, Blockchain, and Art.” He also
-            hosts the Blockchain@Brown Podcast.
+            Ben Frigon is a recent Brown graduate from Nashville, Tennessee, who
+            studied Public Policy and Entrepreneurship. Ben’s main passion is
+            technology and entrepreneurship; specifically, his focus is on
+            making the world a better place using decentralized technologies. In
+            the Spring 2022 semester, Ben co-designed and co-taught the world’s
+            first ever credit-bearing university course on non-fungible tokens,
+            “GISP0003 NFTs, Blockchain, and Art.” He also hosts the
+            Blockchain@Brown Podcast.
           </div>
         </div>
       </div>
