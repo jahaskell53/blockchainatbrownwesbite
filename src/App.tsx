@@ -710,26 +710,6 @@ function App() {
           </div>
         </div>
         <div
-          id="christian"
-          className="flex flex-col md:flex-row gap-8 p-8 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
-        >
-          <div className="left flex flex-col justify-start py-4 flex-shrink-0 md:text-left text-center">
-            <h3 className="font-light text-md">Current Vice President</h3>
-            <h2 className="font-bold text-xl mb-2">Christian Armstrong</h2>
-            <img src="christian.jpeg" className="w-32 mx-auto"></img>
-          </div>
-          <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
-          <div className="flex-shrink self-center ml-8">
-            Christian Armstrong is a computer science student from Durango,
-            Colorado. Christian's love of technology and innovation has
-            culminated in a passion for cryptography and the startup world. When
-            he's not shooting hoops or studying at the Sci-Li, Christian enjoys
-            tea, podcasts, and HBO shows. This semester Christian is a TA for
-            CSCI 0220 and a fierce competitor (not really) in Intramural
-            Basketball.
-          </div>
-        </div>
-        <div
           id="ben"
           className="flex flex-col md:flex-row gap-8 p-8 px-14 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
         >
