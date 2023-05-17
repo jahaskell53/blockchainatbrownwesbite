@@ -252,6 +252,20 @@ function App() {
             <h3>
               <a
                 className="hover:no-underline text-xl font-medium underline"
+                href="https://www.easya.io/"
+                target="_blank"
+              >
+                EasyA
+              </a>
+            </h3>
+            <p className="mt-2 font-light">
+              Easy-to-use app that contains resources for learning about web3 and various chains. Complete in-app quizzes to earn free NFTs and tokens! 
+            </p>
+          </li>
+          <li className="my-4">
+            <h3>
+              <a
+                className="hover:no-underline text-xl font-medium underline"
                 href="https://ethereum.org/en/learn/"
                 target="_blank"
               >
