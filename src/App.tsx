@@ -123,22 +123,26 @@ function App() {
           className="font-bold text-3xl text-center mb-10 z-25 underline"
         >
           <a
-            href="https://us06web.zoom.us/j/88141950477"
+            href="https://easya.io"
             className="group hover:cursor-pointer"
           >
             {" "}
-            Zoom Link
+            EasyA
           </a>
         </h2>
+       
         <a
-            href="https://us06web.zoom.us/j/88141950477"
+            href="https://easya.io"
             className="group hover:cursor-pointer"
           >
         <img
-          src="poster.png"
+          src="easya.jpeg"
           className="mx-auto relative group-hover:scale-105 transition"
         ></img>
           </a>
+          <p className="mt-4 text-stone-500 text-2xl text-center">
+          EasyA just got a revamp! Download their app for free NFTs + coins and clear up your confusion about crypto. Complete challenges for Polkadot, Solana, Tezos, and much more!
+        </p>
 
       </div>
       <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
@@ -259,7 +263,7 @@ function App() {
               </a>
             </h3>
             <p className="mt-2 font-light">
-              Easy-to-use app that contains resources for learning about web3 and various chains. Complete in-app quizzes to earn free NFTs and tokens! 
+              An all-in-one app that contains resources for learning about your favorite blockchains, competing against friends, hearing about upcoming hackathons in your area and more. Complete in-app quizzes to earn free crypto and NFTs! 
             </p>
           </li>
           <li className="my-4">
