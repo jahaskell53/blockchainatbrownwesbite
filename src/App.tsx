@@ -122,28 +122,23 @@ function App() {
           id="podcast"
           className="font-bold text-3xl text-center mb-10 z-25 underline"
         >
-          <a
-            href="https://easya.io"
-            className="group hover:cursor-pointer"
-          >
+          <a href="https://easya.io" className="group hover:cursor-pointer">
             {" "}
             EasyA
           </a>
         </h2>
-       
-        <a
-            href="https://easya.io"
-            className="group hover:cursor-pointer"
-          >
-        <img
-          src="easya.jpeg"
-          className="mx-auto relative group-hover:scale-105 transition"
-        ></img>
-          </a>
-          <p className="mt-4 text-stone-500 text-2xl text-center">
-          EasyA just got a revamp! Download their app for free NFTs + coins and clear up your confusion about crypto. Complete challenges for Polkadot, Solana, Tezos, and much more!
-        </p>
 
+        <a href="https://easya.io" className="group hover:cursor-pointer">
+          <img
+            src="easya.jpeg"
+            className="mx-auto relative group-hover:scale-105 transition"
+          ></img>
+        </a>
+        <p className="mt-4 text-stone-500 text-2xl text-center">
+          EasyA just got a revamp! Download their app for free NFTs + coins and
+          clear up your confusion about crypto. Complete challenges for
+          Polkadot, Solana, Tezos, and much more!
+        </p>
       </div>
       <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
         <h2 id="podcast" className="font-bold text-3xl text-center mb-10 z-25">
@@ -263,7 +258,10 @@ function App() {
               </a>
             </h3>
             <p className="mt-2 font-light">
-              An all-in-one app that contains resources for learning about your favorite blockchains, competing against friends, hearing about upcoming hackathons in your area and more. Complete in-app quizzes to earn free crypto and NFTs! 
+              An all-in-one app that contains resources for learning about your
+              favorite blockchains, competing against friends, hearing about
+              upcoming hackathons in your area and more. Complete in-app quizzes
+              to earn free crypto and NFTs!
             </p>
           </li>
           <li className="my-4">
@@ -725,6 +723,27 @@ function App() {
             technology with business innovations. This semester, Jakobi is a TA
             for CS1951T, and likes to participate in hackathons and go on bike
             rides in his free time.
+          </div>
+        </div>
+        <div
+          id="nishant"
+          className="flex flex-col md:flex-row gap-8 p-8 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
+        >
+          <div className="left flex flex-col justify-start py-4 flex-shrink-0 md:text-left text-center">
+            <h3 className="font-light text-md">Current Vice President</h3>
+            <h2 className="font-bold text-xl mb-2">Nishant Bakhru</h2>
+            <img src="nishant.jpeg" className="w-32 mx-auto"></img>
+          </div>
+          <div className="ml-1 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
+          <div className="flex-shrink self-center ml-8">
+            Nishant Bakhru is a Master's student from Mumbai, India, focusing on
+            Innovation, Management, and Entrepreneurship. He has extensive
+            experience in trading and doing dilligence on crypto projects.
+            Currently, Nishant is combining his affinity for entrepreneurship
+            with his crypto expertise through his development of a
+            blockchain-based loyalty point system. When he's not researching
+            tokens, Nishant enjoys playing poker with friends and working out at
+            the Nelson.
           </div>
         </div>
         <div
