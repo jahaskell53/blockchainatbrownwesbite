@@ -75,7 +75,7 @@ function App() {
         @Brown
       </h1>
       <h3 className="md:text-2xl text-xl text-neutral-600 text-center mb-4 font-light mt-3 max-w-3xl mx-auto">
-        Founded in 2017, Blockchain@Brown is Brown University’s student group
+        Blockchain@Brown is Brown University’s student group
         for everything blockchain, cryptocurrencies, and web3.
       </h3>
       {/* Margin 72 to EOS */}
