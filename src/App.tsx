@@ -750,11 +750,6 @@ function App() {
           id="ben"
           className="flex flex-col md:flex-row gap-8 p-8 px-14 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
         >
-          <div className="left flex flex-col justify-start flex-grow p-4 flex-shrink-0 md:text-left text-center">
-            <h3 className="font-light text-md">Previous President</h3>
-            <h2 className="font-bold text-xl mb-2">Ben Frigon</h2>
-            <img src="ben.jpeg" className="w-32 mx-auto"></img>
-          </div>
           <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center ml-8">
             Ben Frigon is a recent Brown graduate from Nashville, Tennessee, who
