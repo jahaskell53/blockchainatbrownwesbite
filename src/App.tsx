@@ -7,7 +7,6 @@ function App() {
   const [hidden, setHidden] = useState(true);
   return (
     <div id="body" className="App w-full h-full bg-yellow-50">
-      <Coin></Coin>
       <div id="nav-bar" className="pt-2 pl-3 sticky top-0 bg-yellow-50 z-50">
         <div
           id="ham-menu"
@@ -67,9 +66,11 @@ function App() {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center mt-36">
-        <img src="bitcoin-blue.png" className="md:h-auto h-14" />
+        {/* <img src="bitcoin-blue.png" className="md:h-auto h-14" />
         <img src="ethereum.png" className="md:h-auto h-14" />
-        <img src="stellar.png" className="md:h-auto h-14" />
+        <img src="stellar.png" className="md:h-auto h-14" /> */}
+      <Coin></Coin>
+
       </div>
       <h1 id="" className="font-title md:text-6xl text-4xl text-center italic">
         <span className="bg-gradient-to-r bg-clip-text from-fuchsia-600 to-cyan-600 text-transparent">

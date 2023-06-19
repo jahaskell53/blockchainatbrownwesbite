@@ -23,7 +23,7 @@ const App = () => (
       <Model />
     </Suspense>
     <ambientLight />
-    <pointLight position={[10, 10, 10]} />
+    <pointLight position={[10, 10, 10]} intensity={4} />
   </Canvas>
 );
 
