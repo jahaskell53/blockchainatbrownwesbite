@@ -17,7 +17,7 @@ const Loading = () => (
 );
 
 const App = () => (
-  <Canvas className='bg-transparent w-screen h-screen' camera={{ position: [0, 0, 10] }}>
+  <Canvas className='bg-transparent h-96' camera={{ position: [0, 0, 10] }}>
     <Suspense fallback={<Loading />}>
       <OrbitControls />
       <Model />
