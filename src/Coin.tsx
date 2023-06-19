@@ -7,7 +7,7 @@ import { OrbitControls, Html, Loader } from "@react-three/drei";
 const Model = () => {
   const gltf = useLoader(GLTFLoader, 'https://blockchainatbrown.com/coin.glb')
 
-  return <primitive object={gltf.scene} dispose={null} scale={[8, 8, 8]} />
+  return <primitive object={gltf.scene} dispose={null} scale={[18, 18, 18]} rotation={[0, Math.PI, 0]} />
 }
 
 const Loading = () => (
@@ -23,7 +23,7 @@ const App = () => (
       <Model />
     </Suspense>
     <ambientLight />
-    <pointLight position={[10, 10, 10]} intensity={4} />
+    <pointLight position={[10, 10, 10]} intensity={8} color="#0819b2" decay={1}/>
   </Canvas>
 );
 
