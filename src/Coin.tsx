@@ -7,7 +7,7 @@ import { OrbitControls, Html, Loader } from "@react-three/drei";
 const Model = () => {
   const gltf = useLoader(GLTFLoader, 'https://blockchainatbrown.com/coin.glb')
 
-  return <primitive object={gltf.scene} dispose={null} scale={[18, 18, 18]} rotation={[0, Math.PI, 0]} />
+  return <primitive object={gltf.scene} dispose={null} scale={[18, 18, 18]} rotation={[0, Math.PI - Math.PI / 5, 0]} />
 }
 
 const Loading = () => (
