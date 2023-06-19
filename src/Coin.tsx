@@ -1,41 +1,30 @@
-import React, { useEffect, useRef } from 'react';
-import { Canvas } from 'react-three-fiber';
+import React, { Suspense } from 'react';
+import { Canvas } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { OrbitControls, PerspectiveCamera, SoftShadows } from '@react-three/drei';
-import * as THREE from 'three';
+import { useLoader } from '@react-three/fiber';
+import { OrbitControls, Html, Loader } from "@react-three/drei";
 
-const Coin = () => {
-  const sceneRef = useRef();
+const Model = () => {
+  const gltf = useLoader(GLTFLoader, 'https://blockchainatbrown.com/coin.glb')
 
-  useEffect(() => {
-    const loader = new GLTFLoader();
+  return <primitive object={gltf.scene} dispose={null} />
+}
 
-    loader.load(
-      'https://blockchainatbrown.com/coin.glb', // Replace with the path to your custom 3D model file
-      (gltf) => {
-        const object = gltf.scene;
-        object.position.set(0, 0, 0);
-        sceneRef.current?.add(object);
-      },
-      undefined,
-      (error) => {
-        console.error(error);
-      }
-    );
-  }, []);
+const Loading = () => (
+  <Html center>
+    <Loader />
+  </Html>
+);
 
-  return (
-    <Canvas
-      camera={{ position: [0, 0, 5] }}
-      style={{ position: 'fixed', top: 0, left: 0, zIndex: 9999 }}
-    >
-      <scene ref={sceneRef} />
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[0, 10, 10]} intensity={0.5} castShadow />
-      <PerspectiveCamera makeDefault position={[0, 0, 5]} />
-      <OrbitControls enablePan={false} enableZoom={false} />
-    </Canvas>
-  );
-};
+const App = () => (
+  <Canvas style={{ background: 'black' }} camera={{ position: [0, 0, 10] }}>
+    <Suspense fallback={<Loading />}>
+      <OrbitControls />
+      <Model />
+    </Suspense>
+    <ambientLight />
+    <pointLight position={[10, 10, 10]} />
+  </Canvas>
+);
 
-export default Coin;
+export default App;
