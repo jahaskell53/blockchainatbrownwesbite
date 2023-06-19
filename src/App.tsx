@@ -1,10 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import Coin from "./Coin";
+
 
 function App() {
   const [hidden, setHidden] = useState(true);
   return (
     <div id="body" className="App w-full h-full bg-yellow-50">
+      <Coin></Coin>
       <div id="nav-bar" className="pt-2 pl-3 sticky top-0 bg-yellow-50 z-50">
         <div
           id="ham-menu"
