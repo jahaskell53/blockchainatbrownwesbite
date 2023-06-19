@@ -16,14 +16,20 @@ const Loading = () => (
   </Html>
 );
 
+const AxesHelper = () => (
+  <axesHelper args={[5]} />
+);
+
+
 const App = () => (
   <Canvas className='bg-transparent h-96' camera={{ position: [0, 0, 10] }}>
     <Suspense fallback={<Loading />}>
       <OrbitControls />
+      <AxesHelper />
       <Model />
     </Suspense>
     <ambientLight />
-    <pointLight position={[10, 10, 10]} intensity={8} color="#0819b2" decay={1}/>
+    <pointLight position={[-10, 10, -10]} intensity={8} decay={1}/>
   </Canvas>
 );
 
