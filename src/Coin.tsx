@@ -9,9 +9,9 @@ const Model = () => {
   const gltf = useLoader(GLTFLoader, 'https://blockchainatbrown.com/coin.glb');
   const mesh = useRef<ThreeElements["primitive"]>()
 
-  useFrame((state, delta) => (mesh.current!.rotation.y += delta * 0.5))
+  useFrame((state, delta) => (mesh.current!.rotation.y += delta * 0.1))
 
-  return <primitive ref={mesh} object={gltf.scene} dispose={null} scale={[12, 12, 12]} rotation={[0, Math.PI + Math.PI / 5, 0]} />
+  return <primitive ref={mesh} object={gltf.scene} dispose={null} scale={[12, 12, 12]} rotation={[0, Math.PI, 0]} />
 }
 
 const Loading = () => (
