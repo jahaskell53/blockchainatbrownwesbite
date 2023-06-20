@@ -11,7 +11,7 @@ const Model = () => {
 
   useFrame((state, delta) => (mesh.current!.rotation.y += delta * 0.5))
 
-  return <primitive ref={mesh} object={gltf.scene} dispose={null} scale={[10, 10, 10]} rotation={[0, Math.PI + Math.PI / 5, 0]} />
+  return <primitive ref={mesh} object={gltf.scene} dispose={null} scale={[12, 12, 12]} rotation={[0, Math.PI + Math.PI / 5, 0]} />
 }
 
 const Loading = () => (
