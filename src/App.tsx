@@ -750,22 +750,7 @@ function App() {
             the Nelson.
           </div>
         </div>
-        <div
-          id="ben"
-          className="flex flex-col md:flex-row gap-8 p-8 px-14 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
-        >
-          <div className="ml-6 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
-          <div className="flex-shrink self-center ml-8">
-            Ben Frigon is a recent Brown graduate from Nashville, Tennessee, who
-            studied Public Policy and Entrepreneurship. Ben’s main passion is
-            technology and entrepreneurship; specifically, his focus is on
-            making the world a better place using decentralized technologies. In
-            the Spring 2022 semester, Ben co-designed and co-taught the world’s
-            first ever credit-bearing university course on non-fungible tokens,
-            “GISP0003 NFTs, Blockchain, and Art.” He also hosts the
-            Blockchain@Brown Podcast.
-          </div>
-        </div>
+      
       </div>
 
       <h1 id="contact" className="font-bold text-4xl text-center mt-20 mb-8">
