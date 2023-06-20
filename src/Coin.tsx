@@ -33,7 +33,7 @@ const App = () => (
       <Model />
     </Suspense>
     <ambientLight />
-    <pointLight position={[-10, 10, 10]} intensity={8} decay={2}/>
+    <pointLight position={[-10, 10, 10]} intensity={6} decay={2}/>
   </Canvas>
 );
 
