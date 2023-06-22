@@ -37,7 +37,7 @@ function App() {
           ></div>
         </div>
         <img
-          src="bitcoin.png"
+          src="bitcoin.jpg"
           width="60"
           onClick={() => {
             window.location.href = "#body";
