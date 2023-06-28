@@ -121,7 +121,7 @@ function App() {
         </a>
       </div>
 
-      <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
+      {/* <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
         <h2
           id="podcast"
           className="font-bold text-3xl text-center mb-10 z-25 underline"
@@ -143,7 +143,7 @@ function App() {
           clear up your confusion about crypto. Complete challenges for
           Polkadot, Solana, Tezos, and much more!
         </p>
-      </div>
+      </div> */}
       <div className="border-box p-10 w-3/4 max-w-4xl bg-black bg-opacity-5 mt-32 mb-10 mx-auto rounded-2xl">
         <h2 id="podcast" className="font-bold text-3xl text-center mb-10 z-25">
           Free Domain Giveaway
