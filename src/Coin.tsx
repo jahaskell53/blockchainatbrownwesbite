@@ -6,7 +6,7 @@ import { OrbitControls, Html, Loader } from "@react-three/drei";
 import { ThreeElements, useFrame } from 'react-three-fiber';
 
 const Model = () => {
-  const gltf = useLoader(GLTFLoader, 'https://blockchainatbrown.com/coin.glb');
+  const gltf = useLoader(GLTFLoader, 'https://blockchainatbrown.netlify.app/coin.glb');
   const mesh = useRef<ThreeElements["primitive"]>()
 
   useFrame((state, delta) => (mesh.current!.rotation.y += delta * 0.1))
