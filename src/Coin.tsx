@@ -29,7 +29,7 @@ const App = () => (
   <Canvas className='bg-transparent h-208' camera={{ position: [-10, 0, 10] }}>
     <Suspense fallback={<Loading />}>
       <OrbitControls 
-        minDistance={5}
+        minDistance={10}
         maxDistance={20}
       />
       {/* <AxesHelper /> */}
