@@ -710,23 +710,21 @@ function App() {
       </h1>
       <div id="container" className="flex flex-col gap-8">
         <div
-          id="jakobi"
+          id="Jad"
           className="flex flex-col md:flex-row gap-8 p-8 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
         >
           <div className="left flex flex-col justify-start flex-grow p-4 px-10 flex-shrink-0 md:text-left text-center">
             <h3 className="font-light text-md">Current President</h3>
-            <h2 className="font-bold text-xl mb-2">Jakobi Haskell</h2>
-            <img src="jakobi.jpeg" className="w-32 mx-auto md:mx-0"></img>
+            <h2 className="font-bold text-xl mb-2">Jad Alkarim Al Smail</h2>
+            <img src="Jad.png" className="w-32 mx-auto md:mx-0"></img>
           </div>
           <div className="-ml-1 mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center">
-            Jakobi Haskell is a computer science student from Washington DC.
-            Jakobi has been involved in various crypto-related projects, such as
-            building an NFT-based social platform for digital artists. He's
-            passionate about the Ethereum ecosystem as well as combining
-            technology with business innovations. This semester, Jakobi is a TA
-            for CS1951T, and likes to participate in hackathons and go on bike
-            rides in his free time.
+            Jad Al Smail is a computer science and applied mathematics student from Syria. 
+            Jad is passionate about decentralized finance and the intersection of mathematics, technology, and economics. 
+            This semester, He is the Head Teaching Assistant for the Blockchains and Cryptocurrencies course 
+            and conducts research on Automated Market Makers. Outside of academics,
+            Jad enjoys mentoring students, going on bike rides, and exploring new problem-solving challenges.
           </div>
         </div>
         <div
