@@ -202,7 +202,7 @@ function App() {
           <div className="text-stone-500">
             Blockchain@Brown is the central hub for the blockchain community at
             Brown, where everyone can come together to discuss topics, share
-            ideas, and meet other studetns passionate about thsi technology.
+            ideas, and meet other studetns passionate about this technology.
           </div>
         </div>
 
@@ -775,7 +775,7 @@ function App() {
         <a
           id="discord-div"
           className="flex flex-row items-center gap-4 my-4 mx-auto md:w-[440px] w-[300px]"
-          href="https://discord.gg/C7xhNxSv"
+          href="https://discord.gg/Gfxd55pd"
           target="_blank"
         >
           <img src="Discord.png" className="h-16"></img>
