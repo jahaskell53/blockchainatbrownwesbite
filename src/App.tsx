@@ -728,24 +728,21 @@ function App() {
           </div>
         </div>
         <div
-          id="nishant"
+          id="Yassir"
           className="flex flex-col md:flex-row gap-8 p-8 md:mx-16 bg-opacity-5 bg-black rounded-2xl"
         >
           <div className="left flex flex-col justify-start py-4 flex-shrink-0 md:text-left text-center">
             <h3 className="font-light text-md">Current Vice President</h3>
-            <h2 className="font-bold text-xl mb-2">Nishant Bakhru</h2>
-            <img src="nishant.jpeg" className="w-32 mx-auto"></img>
+            <h2 className="font-bold text-xl mb-2">Yassir Aouf</h2>
+            <img src="yassir.jpeg" className="w-32 mx-auto"></img>
           </div>
           <div className="ml-1 -mr-4 w-0.5 h-52 bg-gray-600 relative hidden md:block"></div>
           <div className="flex-shrink self-center ml-8">
-            Nishant Bakhru is a Master's student from Mumbai, India, focusing on
-            Innovation, Management, and Entrepreneurship. He has extensive
-            experience in trading and doing dilligence on crypto projects.
-            Currently, Nishant is combining his affinity for entrepreneurship
-            with his crypto expertise through his development of a
-            blockchain-based loyalty point system. When he's not researching
-            tokens, Nishant enjoys playing poker with friends and working out at
-            the Nelson.
+            Yassir Aouf is a computer science student from Morocco. He is interested in 
+            decentralized technologies, smart contracts, and their applications in shaping 
+            the future of finance. Yassir has worked on projects exploring blockchain scalability
+             and enjoys collaborating with peers to push the boundaries of what’s possible in the Web3 space. 
+             Outside of academics, he likes to participate in hackathons and discover new innovations in crypto.
           </div>
         </div>
       
